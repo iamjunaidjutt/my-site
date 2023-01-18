@@ -4,6 +4,7 @@ import HeroSection from '../Sections/HeroSection'
 import AboutMe from '../Sections/AboutMe'
 import Partition from '../UI/Partition'
 import Skills from '../Sections/Skills'
+import Portfolio from '../Sections/Portfolio'
 
 const RightSideBar = () => {
   return (
@@ -15,6 +16,7 @@ const RightSideBar = () => {
       <Partition />
       <Skills />
       <Partition />
+      <Portfolio />
     </div>
   )
 }

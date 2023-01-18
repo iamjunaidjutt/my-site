@@ -2,7 +2,7 @@ import React from 'react'
 
 const Partition = () => {
   return (
-    <div className='border-t border-myRed w-4/5 m-auto opacity-50'></div>
+    <div className='border-t border-myRed ml-8 opacity-50 w-11/12'></div>
   )
 }
 
