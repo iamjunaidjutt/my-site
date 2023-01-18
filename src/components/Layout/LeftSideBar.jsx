@@ -8,13 +8,13 @@ const LeftSideBar = () => {
         <BsSoundwave className='text-3xl m-8'/>
         <div className='ml-10 mt-60'>
           <a href='https://www.linkedin.com/in/muhammad-junaid-621ab91a6' target="_blank">
-            <FaLinkedinIn className='text-xl mb-8'/>
+            <FaLinkedinIn className='text-xl mb-8 hover:text-myBlue'/>
           </a>
           <a href='https://www.github.com/iamjunaidjutt' target="_blank">
-            <FaGithub className='text-xl mb-8'/>
+            <FaGithub className='text-xl mb-8 hover:text-myBlue'/>
           </a>
           <a href='https://twitter.com/iamjunaidjutt_' target="_blank">
-            <FaTwitter className='text-xl mb-8'/>
+            <FaTwitter className='text-xl mb-8 hover:text-myBlue'/>
           </a>
         </div>
     </div>
