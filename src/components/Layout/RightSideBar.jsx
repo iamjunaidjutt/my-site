@@ -7,6 +7,7 @@ import Skills from '../Sections/Skills'
 import Portfolio from '../Sections/Portfolio'
 import Contact from '../Sections/Contact'
 import Footer from '../Footer/Footer'
+import ScrollToTop from '../ScrollToTop/ScrollToTop'
 
 const RightSideBar = () => {
   const aboutMeRef = useRef(null);
@@ -17,6 +18,7 @@ const RightSideBar = () => {
 
   return (
     <div className='w-full ml-24'>
+      <ScrollToTop/>
       <NavBar aboutMeRef={aboutMeRef} skillsRef={skillsRef} portfolioRef={portfolioRef} contactRef={contactRef}/>
       <HeroSection aboutMeRef={aboutMeRef} contactRef={contactRef}/>
       <Partition/>
