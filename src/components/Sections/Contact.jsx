@@ -14,11 +14,10 @@ function Contact(props) {
             <div className='my-12'>
                 <p className='flex text-gray-400 my-3'><GoLocation className="mr-2 "/> Lahore, Pakistan</p>
                 <p className='flex text-gray-400 my-3'><BsTelephone className="mr-2 "/> +923074254648</p>
-                <Link className='flex text-gray-400 my-3'><BsFillEnvelopeFill className="mr-2  "/> info@iamjunaidjutt.tech</Link>
+                <Link className='flex text-gray-400 my-3'><BsFillEnvelopeFill className="mr-2  "/> <a href='mailto:info@iamjunaidjutt.tech'>info@iamjunaidjutt.tech</a></Link>
             </div>
         </div>
         <InputForm />
-        {/* <FormTemplate/> */}
     </div>
   )
 }

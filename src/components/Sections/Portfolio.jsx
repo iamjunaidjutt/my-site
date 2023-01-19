@@ -12,32 +12,18 @@ const Portfolio = (props) => {
       gitLink: "https://github.com/iamjunaidjutt/AddUser-App"
     },
     {
-      title: "Add User App",
-      content: "Add User app using React.js and TailwindCSS",
-      techStack: `HTML  REACT  TAILWIND`,
+      title: "Expense Tracker app",
+      content: "It is an expense tracker web app that provides an ease to track your expense by saving it and check it by filtering it on yearly or monthly basis.",
+      techStack: `HTML  REACT  CSS`,
       liveLink: "null",
-      gitLink: "https://github.com/iamjunaidjutt/AddUser-App"
+      gitLink: "https://github.com/iamjunaidjutt/Expense-Tracker-App"
     },
     {
-      title: "Add User App",
-      content: "Add User app using React.js and TailwindCSS",
-      techStack: `HTML  REACT  TAILWIND`,
+      title: "Secret App",
+      content: "It is a secret app in which you can login securely by using the google credentials authentication and by using the sign-up or sign-in options for your account and you can see all the secrets that other post their latest...",
+      techStack: `EJS NODEJS EXPRESS MONGODB`,
       liveLink: "null",
-      gitLink: "https://github.com/iamjunaidjutt/AddUser-App"
-    },
-    {
-      title: "Add User App",
-      content: "Add User app using React.js and TailwindCSS",
-      techStack: `HTML  REACT  TAILWIND`,
-      liveLink: "null",
-      gitLink: "https://github.com/iamjunaidjutt/AddUser-App"
-    },
-    {
-      title: "Add User App",
-      content: "Add User app using React.js and TailwindCSS",
-      techStack: `HTML  REACT  TAILWIND`,
-      liveLink: "null",
-      gitLink: "https://github.com/iamjunaidjutt/AddUser-App"
+      gitLink: "https://github.com/iamjunaidjutt/secrets-app"
     }
   ];
   return (
