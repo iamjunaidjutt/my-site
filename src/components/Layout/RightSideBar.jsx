@@ -6,6 +6,7 @@ import Partition from '../UI/Partition'
 import Skills from '../Sections/Skills'
 import Portfolio from '../Sections/Portfolio'
 import Contact from '../Sections/Contact'
+import Footer from '../Footer/Footer'
 
 const RightSideBar = () => {
   return (
@@ -20,6 +21,8 @@ const RightSideBar = () => {
       <Portfolio/>
       <Partition/>
       <Contact/>
+      <Partition/>
+      <Footer />
     </div>
   )
 }
