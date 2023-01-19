@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Partition = () => {
+const Partition = (props) => {
   return (
-    <div className='border-t border-myRed ml-8 opacity-50 w-11/12'></div>
+    <div className={`border-t border-myRed ml-8 opacity-50 w-11/12 ${props.className}`}></div>
   )
 }
 

@@ -17,6 +17,7 @@ const RightSideBar = () => {
       <Skills />
       <Partition />
       <Portfolio />
+      <Partition />
     </div>
   )
 }
