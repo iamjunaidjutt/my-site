@@ -46,7 +46,7 @@ const Portfolio = (props) => {
       <ul className='flex basis-auto flex-wrap'>
       {portfolioList.map(portfolio => <PortfolioItems key={Math.random()} title={portfolio.title} content={portfolio.content} techStack={portfolio.techStack} liveLink={portfolio.liveLink} gitLink={portfolio.gitLink}/>)}
       </ul>
-      <PrimaryButton className='m-5'>See More</PrimaryButton>
+      <a href='https://github.com/iamjunaidjutt' target='_blank'><PrimaryButton className='m-5'>See More</PrimaryButton></a>
     </div>
   )
 }

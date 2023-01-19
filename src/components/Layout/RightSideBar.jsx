@@ -18,9 +18,9 @@ const RightSideBar = () => {
   return (
     <div className='w-full ml-24'>
       <NavBar aboutMeRef={aboutMeRef} skillsRef={skillsRef} portfolioRef={portfolioRef} contactRef={contactRef}/>
-      <HeroSection/>
+      <HeroSection aboutMeRef={aboutMeRef} contactRef={contactRef}/>
       <Partition/>
-      <AboutMe Ref={aboutMeRef}/>
+      <AboutMe Ref={aboutMeRef} portfolioRef={portfolioRef}/>
       <Partition/>
       <Skills Ref={skillsRef}/>
       <Partition/>
