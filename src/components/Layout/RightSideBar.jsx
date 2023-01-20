@@ -17,7 +17,7 @@ const RightSideBar = () => {
 
 
   return (
-    <div className='w-full ml-24'>
+    <div className='w-full lg:ml-24'>
       <ScrollToTop/>
       <NavBar aboutMeRef={aboutMeRef} skillsRef={skillsRef} portfolioRef={portfolioRef} contactRef={contactRef}/>
       <HeroSection aboutMeRef={aboutMeRef} contactRef={contactRef}/>

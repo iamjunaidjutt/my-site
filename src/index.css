@@ -6,7 +6,8 @@
 
 @layer base {
 	html {
-		@apply bg-myBgDark text-myBgLight;
+		@apply bg-myBgDark text-myBgLight text-sm lg:text-base;
 		font-family: "Poppins", sans-serif;
+		box-sizing: border-box;
 	}
 }
