@@ -14,7 +14,7 @@ const NavBar = (props) => {
     })
   };
   return (
-    <nav className='lg:flex justify-between w-full'>
+    <nav className='lg:flex justify-between w-full md:max-lg:w-[32rem]'>
       <div className='flex justify-between'>
         <img src={Logo} alt='Logo' className='m-3 ml-7 inline-block'/>
         {toggle && <CgMenuRight onClick={() => setToggle((prev) => !prev)}  className='lg:hidden inline-block text-4xl hover:text-myBlue mt-10 mr-8'/>}

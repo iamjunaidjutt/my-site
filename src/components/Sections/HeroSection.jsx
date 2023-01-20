@@ -21,8 +21,8 @@ const HeroSection = (props) => {
             <Link className='py-2 block pb-6 text-myRed' onClick={() => scrollToSection(props.aboutMeRef)}>More About Me</Link>
             <PrimaryButton onClick={() => scrollToSection(props.contactRef)}>Contact Me</PrimaryButton>
         </div>
-        {!isShown && <img src={JImage} alt="JImage" onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} className='pt-1 hidden' />}
-        {isShown && <img src={JHover} alt="JImage" onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} className='pt-1 hidden' />}
+        {!isShown && <img src={JImage} alt="JImage" onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} className='pt-1 lg:block hidden' />}
+        {isShown && <img src={JHover} alt="JImage" onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} className='pt-1 lg:block hidden' />}
     </main>
   )
 }
