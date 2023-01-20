@@ -27,8 +27,8 @@ const Portfolio = (props) => {
     }
   ];
   return (
-    <div className='p-8 py-36 text-center'>
-      <h2 className='my-2 text-4xl font-semibold text-myBlue mb-4 underline decoration-myRed underline-offset-8 text-left' ref={props.Ref}>Portfolio</h2>
+    <div className='p-8 py-36 text-center max-lg:py-28' ref={props.Ref}>
+      <h2 className='my-2 text-4xl font-semibold text-myBlue mb-4 underline decoration-myRed underline-offset-8 text-left' >Portfolio</h2>
       <ul className='flex basis-auto flex-wrap'>
       {portfolioList.map(portfolio => <PortfolioItems key={Math.random()} title={portfolio.title} content={portfolio.content} techStack={portfolio.techStack} liveLink={portfolio.liveLink} gitLink={portfolio.gitLink}/>)}
       </ul>

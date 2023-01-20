@@ -7,10 +7,10 @@ import { BsTelephone, BsFillEnvelopeFill } from "react-icons/bs";
 
 function Contact(props) {
   return (
-    <div className='flex py-8'>
-        <div className='w-4/12 p-8 my-20 basis-4/12'>
-            <h2 className='my-2 text-4xl font-semibold text-myBlue mb-16 underline decoration-myRed underline-offset-8 ' ref={props.Ref}>Contact Me</h2>
-            <h2 className='text-2xl text-myBlue font-semibold'>Muhammad Junaid</h2>
+    <div className='lg:flex lg:my-8 max-lg:w-96 max-lg:my-28' ref={props.Ref}>
+        <div className='w-4/12 lg:p-8 max-lg:px-8 lg:my-20 lg:basis-4/12 max-lg:w-96'>
+            <h2 className='lg:my-2 text-4xl font-semibold  text-myBlue mb-16 underline decoration-myRed underline-offset-8 ' >Contact Me</h2>
+            <h2 className='text-2xl text-myBlue font-semibold lg:mt-20'>Muhammad Junaid</h2>
             <div className='my-12'>
                 <p className='flex text-gray-400 my-3'><GoLocation className="mr-2 "/> Lahore, Pakistan</p>
                 <p className='flex text-gray-400 my-3'><BsTelephone className="mr-2 "/> +923074254648</p>
