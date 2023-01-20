@@ -14,7 +14,7 @@ const HeroSection = (props) => {
   };
   return (
     <main className='flex'>
-        <div className='w-3/5 p-8 py-40'>
+        <div className='w-3/5 p-8 py-28 lg:py-40'>
             <h1 className='py-2 text-5xl font-semibold'>Hi! I'm <span className='text-myBlue'>Muhammad Junaid</span></h1>
             <h3 className='py-2 text-xl'>Deputy Head of Marketing <Link><a href='https://softecnu.org/' target='_blank'>@SOFTEC</a></Link> | SE Sophomore <Link><a href='https://nu.edu.pk/' target='_blank'>@FAST NUCES</a></Link></h3>
             <p className='py-2 text-gray-400'>I’m Tech Enthusiastic with a strong background in Computer Science and Programming. I’m a continuous learner and a self-taught full-stack developer.</p>
