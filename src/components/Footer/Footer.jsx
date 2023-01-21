@@ -25,7 +25,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className='lg:flex mr-14 hidden lg:block'>Owner <img src={LogoFooter} alt='logo-footer' className='ml-2'/></div>
+        <div className='lg:flex mr-14 hidden '>Owner <img src={LogoFooter} alt='logo-footer' className='ml-2'/></div>
     </div>
   )
 }
