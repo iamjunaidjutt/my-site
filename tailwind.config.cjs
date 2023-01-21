@@ -13,6 +13,9 @@ module.exports = {
         "myBgDark": "#1D1D1D",
       },
       spacing: {
+        "76": "19rem",
+        "80": "20rem",
+        "84": "21rem",
         "88": "22rem",
         "92": "23rem",
         "120": "30rem",

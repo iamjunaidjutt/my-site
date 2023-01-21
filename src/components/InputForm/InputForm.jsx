@@ -13,7 +13,7 @@ const InputForm = (props) => {
           <input type='text' name='yourSubject' placeholder='Subject' className='m-2 block lg:w-132 max-lg:w-88 bg-myGray p-3 ' required/>
           <textarea name="yourMessage" id="" placeholder='Message' rows="10" className='m-2 lg:my-4 block bg-myGray p-3 lg:w-132 max-lg:w-88' required/>
         </div>
-        <PrimaryButton type="submit" className='ml-2 lg:ml-88 max-lg:mt-3'>Submit</PrimaryButton>
+        <PrimaryButton type="submit" className='ml-2 lg:ml-76 max-lg:mt-3'>Send Message</PrimaryButton>
     </form>
   )
 }

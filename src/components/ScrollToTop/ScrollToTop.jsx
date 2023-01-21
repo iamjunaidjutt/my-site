@@ -24,7 +24,7 @@ const ScrollToTop = () => {
     <div>
       {showScrollTopButton && (
         <FaAngleDoubleUp
-          className="fixed bottom-5 right-6 text-4xl border border-myBlue hover:bg-myBlue hover:text-myBgDark hover:border-white cursor-pointer rounded-full p-2 drop-shadow-lg shadow-myGray"
+          className="fixed bottom-5 right-6 text-4xl border border-myBlue hover:bg-myBlue hover:text-myBgDark hover:border-white cursor-pointer transition ease-in duration-300 delay-100 rounded-full p-2 drop-shadow-lg shadow-myGray animate-bounce"
           onClick={scrollTop}
         />
       )}
