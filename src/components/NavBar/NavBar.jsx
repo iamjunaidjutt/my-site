@@ -17,8 +17,8 @@ const NavBar = (props) => {
     <nav className='lg:flex justify-between lg:ml-24 lg:pr-28 lg:pl-4 bg-myBgDark h-24 content-center w-full md:max-lg:w-[32rem] fixed inset-0 z-50 shadow-myGray shadow-sm'>
       <div className='max-lg:flex max-lg:justify-between max-lg:px-4 max-md:w-[28rem]'>
         <img src={Logo} alt='Logo' className='m-3 inline-block w-[67] h-[72]'/>
-        {!toggle && <CgMenuRight onClick={() => setToggle((prev) => !prev)}  className='lg:hidden inline-block text-4xl hover:text-myBlue mt-10 mr-14 transition ease-in duration-300 delay-75'/>}
-        {toggle && <RxCross1 onClick={() => setToggle((prev) => !prev)}  className='lg:hidden inline-block text-4xl hover:text-myBlue mt-10 mr-14 transition ease-in duration-300 delay-75'/>}
+        {!toggle && <CgMenuRight onClick={() => setToggle((prev) => !prev)}  className='lg:hidden inline-block text-4xl hover:text-myBlue mt-10 mr-16 transition ease-in duration-300 delay-75'/>}
+        {toggle && <RxCross1 onClick={() => setToggle((prev) => !prev)}  className='lg:hidden inline-block text-4xl hover:text-myBlue mt-10 mr-16 transition ease-in duration-300 delay-75'/>}
       </div>
 
         <div className={`mr-24 hidden lg:flex `}>
